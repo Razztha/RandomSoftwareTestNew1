@@ -1,0 +1,64 @@
+﻿@page
+@model Web.Pages.DataModel
+@{
+}
+
+<div class="container">
+    <h2>Post List</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Image Url
+                </th>
+                <th>
+                    Created Time
+                </th>
+                <th>
+                    Author Name
+                </th>
+                <th>
+                    Total Likes
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+    </table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "https://localhost:44305/api/Post",
+            dataType: "json",
+            success: function (result) {
+                console.log(result);
+                var html = '';
+                $.each(result, function (key, item) {
+                    html += '<tr>';
+                    html += '<td>' + item.id + '</td>';
+                    html += '<td>' + item.title + '</td>';
+                    html += '<td>' + item.imageUrl + '</td>';
+                    html += '<td>' + item.createdTime + '</td>';
+                    html += '<td>' + item.authorName + '</td>';
+                    html += '<td>' + item.totalLikes + '</td>';
+                    html += '<td>' + '<button class="btn btn-primary">View</button>' + '</td>';
+                    html += '</tr>';
+                });
+                $('.tbody').html(html);
+            }
+        });
+    });
+</script>

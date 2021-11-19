@@ -1,0 +1,10 @@
+D:\My Projects\RandomSoftware\MockAPIService\bin\Debug\netcoreapp3.1\MockAPIService.deps.json
+D:\My Projects\RandomSoftware\MockAPIService\bin\Debug\netcoreapp3.1\MockAPIService.dll
+D:\My Projects\RandomSoftware\MockAPIService\bin\Debug\netcoreapp3.1\MockAPIService.pdb
+D:\My Projects\RandomSoftware\MockAPIService\obj\Debug\netcoreapp3.1\MockAPIService.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\RandomSoftware\MockAPIService\obj\Debug\netcoreapp3.1\MockAPIService.AssemblyInfoInputs.cache
+D:\My Projects\RandomSoftware\MockAPIService\obj\Debug\netcoreapp3.1\MockAPIService.AssemblyInfo.cs
+D:\My Projects\RandomSoftware\MockAPIService\obj\Debug\netcoreapp3.1\MockAPIService.csproj.CoreCompileInputs.cache
+D:\My Projects\RandomSoftware\MockAPIService\obj\Debug\netcoreapp3.1\MockAPIService.dll
+D:\My Projects\RandomSoftware\MockAPIService\obj\Debug\netcoreapp3.1\MockAPIService.pdb
+D:\My Projects\RandomSoftware\MockAPIService\obj\Debug\netcoreapp3.1\MockAPIService.csproj.AssemblyReference.cache

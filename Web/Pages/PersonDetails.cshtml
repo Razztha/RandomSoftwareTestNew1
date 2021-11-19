@@ -1,0 +1,61 @@
+﻿@page
+@model Web.Pages.PersonDetailsModel
+@{
+}
+
+
+
+<div class="container">
+    <h2>
+        Person Details
+    </h2>
+    <div class="row">
+        <div class="col-md-5">
+            Id
+        </div>
+        <div class="col-md-5" id="id">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            First Name
+        </div>
+        <div class="col-md-5" id="firstName">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            Last Name
+        </div>
+        <div class="col-md-5" id="lastName">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            Email
+        </div>
+        <div class="col-md-5" id="email">
+
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    var url = "https://localhost:44305/api/Person/" + @Model.Id;
+    $.ajax({
+        type: "GET",
+        url: url,
+        dataType: "json",
+        success: function (result) {
+            console.log(result);
+            document.getElementById("id").innerHTML = result.id;
+            document.getElementById("firstName").innerHTML = result.firstName;
+            document.getElementById("lastName").innerHTML = result.lastName;
+            document.getElementById("email").innerHTML = result.email;
+        }
+    });
+</script>

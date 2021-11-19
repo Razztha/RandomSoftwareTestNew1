@@ -1,0 +1,76 @@
+﻿@page
+@model Web.Pages.PersonsModel
+@{
+}
+
+<div class="container">
+    <h2>Person List</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                @*
+                    <th>
+                        Created Time
+                    </th>*@
+                <th>
+                    Email
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+    </table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        function Navigate(id)
+        {
+            debugger;
+            window.location.href = "/PersonDetails/"+id;
+        }
+
+        $(".btn-click").click(function () {
+            debugger;
+            var id = this.id;
+        });
+
+        $.ajax({
+            type: "GET",
+            url: "https://localhost:44305/api/Person",
+            dataType: "json",
+            success: function (result) {
+                console.log(result);
+                var html = '';
+                $.each(result, function (key, item) {
+                    html += '<tr>';
+                    html += '<td>' + item.id + '</td>';
+                    html += '<td>' + item.firstName + '</td>';
+                    html += '<td>' + item.lastName + '</td>';
+                    //html += '<td>' + item.CreatedTime + '</td>';
+                    html += '<td>' + item.email + '</td>';
+                    //html += '<td>' +
+                    //    '<button class="btn btn-primary" class="btn-click" id="'+item.id+'">View</button>' +
+                    //    '</td>';
+                    html += '<td>' +
+                        '<a class="btn btn-primary" href="/PersonDetails?id=' + item.id + '" >View</a>' +
+                        '</td>';
+                    html += '</tr>';
+                });
+                $('.tbody').html(html);
+            }
+        });
+    });
+</script>
