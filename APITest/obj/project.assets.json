@@ -6153,11 +6153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Projects\\RandomSoftware\\APITest\\APITest.csproj",
+      "projectUniqueName": "D:\\RandomSoftware\\APITest\\APITest.csproj",
       "projectName": "APITest",
-      "projectPath": "D:\\My Projects\\RandomSoftware\\APITest\\APITest.csproj",
+      "projectPath": "D:\\RandomSoftware\\APITest\\APITest.csproj",
       "packagesPath": "C:\\Users\\Empite\\.nuget\\packages\\",
-      "outputPath": "D:\\My Projects\\RandomSoftware\\APITest\\obj\\",
+      "outputPath": "D:\\RandomSoftware\\APITest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Empite\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6174,11 +6174,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj": {
-              "projectPath": "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj"
+            "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj": {
+              "projectPath": "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj"
             },
-            "D:\\My Projects\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj": {
-              "projectPath": "D:\\My Projects\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj"
+            "D:\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj": {
+              "projectPath": "D:\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj"
             }
           }
         }

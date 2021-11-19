@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TWK9PA3JsoJSrxkg6Q1RaHFsHG3p73bffbpPobAx1SLZx6J9xduki2vcI7U3HhjmK/cO2EO8UF5NmkY9aIGHZg==",
+  "dgSpecHash": "6jeNtDNFXZI5T1WddpsHI0N/ppV1bSyTlUQKlgTkSeBAM7TOwIm0LkJe6Wup2z9Y+2UKdPkeAeg3sjY8VB7tyw==",
   "success": true,
-  "projectFilePath": "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj",
+  "projectFilePath": "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Empite\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\Empite\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

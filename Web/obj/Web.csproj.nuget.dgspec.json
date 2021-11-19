@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Projects\\RandomSoftware\\Web\\Web.csproj": {}
+    "D:\\RandomSoftware\\Web\\Web.csproj": {}
   },
   "projects": {
-    "D:\\My Projects\\RandomSoftware\\Web\\Web.csproj": {
+    "D:\\RandomSoftware\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\RandomSoftware\\Web\\Web.csproj",
+        "projectUniqueName": "D:\\RandomSoftware\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "D:\\My Projects\\RandomSoftware\\Web\\Web.csproj",
+        "projectPath": "D:\\RandomSoftware\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\Empite\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\RandomSoftware\\Web\\obj\\",
+        "outputPath": "D:\\RandomSoftware\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Empite\\AppData\\Roaming\\NuGet\\NuGet.Config",

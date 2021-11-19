@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Projects\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj": {}
+    "D:\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj": {}
   },
   "projects": {
-    "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj": {
+    "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj",
+        "projectUniqueName": "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj",
         "projectName": "MockAPIService",
-        "projectPath": "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj",
+        "projectPath": "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj",
         "packagesPath": "C:\\Users\\Empite\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\RandomSoftware\\MockAPIService\\obj\\",
+        "outputPath": "D:\\RandomSoftware\\MockAPIService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Empite\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\My Projects\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj": {
+    "D:\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj",
+        "projectUniqueName": "D:\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj",
         "projectName": "RandomSoftware",
-        "projectPath": "D:\\My Projects\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj",
+        "projectPath": "D:\\RandomSoftware\\RandomSoftware\\RandomSoftware.csproj",
         "packagesPath": "C:\\Users\\Empite\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\RandomSoftware\\RandomSoftware\\obj\\",
+        "outputPath": "D:\\RandomSoftware\\RandomSoftware\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Empite\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj": {
-                "projectPath": "D:\\My Projects\\RandomSoftware\\MockAPIService\\MockAPIService.csproj"
+              "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj": {
+                "projectPath": "D:\\RandomSoftware\\MockAPIService\\MockAPIService.csproj"
               }
             }
           }
